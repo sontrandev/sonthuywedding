@@ -696,6 +696,11 @@ button{
     width: 74px;
   }
 }
+@media (min-width: 992px) {
+    .header-caption {
+        margin-left: -120px;
+    }
+  }
 #event-count .event-count-box:first-child .dash {
     margin-left: 0;
 }
